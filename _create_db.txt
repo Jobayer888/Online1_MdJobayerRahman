@@ -1,0 +1,15 @@
+create database Airplane Management;
+use db0;
+
+create table Ticket_Booking ( 
+	ID INT(10) AUTO_INCREMENT, 
+	NAME VARCHAR(50),
+	APPT_DATE VARCHAR(50),
+	FROM_LOCATION VARCHAR(50),
+	TO_LOCATION VARCHAR(50),
+	STATUS VARCHAR(20),
+	PRIMARY KEY(id) 
+);
+
+insert into Ticket_Booking values ( '','Jobayer','20 Mar','Dhaka','Bhola', 'Confirm' );
+select * from Ticket_Booking;
