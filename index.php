@@ -20,7 +20,7 @@
         echo "<td> $STATUS </td>";
 
 		echo "<td> <a href = 'appt_input.php?id=$ID'> addBooking </a> </td>";
-		echo "<td> <a href = 'cancel_input.php?id=$ID'> CancelBooking </a> </td>";
+		echo "<td> <a href = 'delete.php?id=$ID'> CancelBooking </a> </td>";
 		echo "</tr> \n";
 	}
 

@@ -9,7 +9,7 @@
     $STATUS = $_GET["STATUS"];
 
 
-	require_once('db_connect.php');
+	require_once('dbconfig.php');
 
 	$connect = mysqli_connect( HOST, USER, PASS, DB )
 
